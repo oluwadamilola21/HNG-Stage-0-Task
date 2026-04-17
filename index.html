@@ -28,11 +28,13 @@
 
             <div data-testid="test-todo-collapsible-section" id="todo-desc-section">
                 <p class="description" data-testid="test-todo-description">
-                    Finish up my slide for Project Defence Presentation. A big headache, but what choice do I have? School is not scam, lol, we go sha rough am till the end, what am I saying????
+                    Finish up my slide for Project Defence Presentation. A big headache, but what choice do I have?
+                    School is not scam, lol, we go sha rough am till the end, what am I saying????
                 </p>
             </div>
 
-            <button data-testid="test-todo-expand-toggle" class="showBtn" aria-expanded="false" aria-controls="todo-desc-section">
+            <button data-testid="test-todo-expand-toggle" class="showBtn" aria-expanded="false"
+                aria-controls="todo-desc-section">
                 Show more
             </button>
 
@@ -43,6 +45,9 @@
                     <span data-testid="test-todo-priority-indicator" class="priority-indicator high"></span>
                     <span class="badge high" data-testid="test-todo-priority" aria-label="High Priority">
                         High
+                    </span>
+                    <span data-testid="test-todo-status" class="status-label" hidden>
+                        Pending
                     </span>
                     <select data-testid="test-todo-status-control" class="status pending">
                         <option>Pending</option>
@@ -83,7 +88,7 @@
             </div>
         </div>
 
-    
+
         <div data-testid="test-todo-edit-form" class="edit-form">
 
             <label>
